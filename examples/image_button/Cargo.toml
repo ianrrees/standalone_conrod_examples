@@ -1,0 +1,12 @@
+[package]
+name = "image_button"
+version = "0.1.0"
+authors = ["Ian Rees <ian.rees@gmail.com>"]
+
+[dependencies]
+conrod = {version = "0.61", features = ["glium", "winit"]}
+glium = "0.22.0"
+winit = "0.18.0"
+find_folder = "0.3.0"
+rand = "0.6.1"
+image = "0.20.1"
