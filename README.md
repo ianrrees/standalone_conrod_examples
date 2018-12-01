@@ -10,7 +10,7 @@ This repo simply extracts those examples in to their own cargo applications, so 
   2. cd to one of the `examples` subdirectories.
   3. `cargo run`
   
-The secret sauce is mostly in the line of your Cargo.toml file, which lists the conrod dependency:
+The secret sauce is mostly in the line of your Cargo.toml file, which lists the conrod dependency.  This means "We depend on conrod built with the glium and winit features":
 
 ```
 [dependencies]
